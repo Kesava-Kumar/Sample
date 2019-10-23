@@ -1,0 +1,26 @@
+
+
+
+
+<form class="col s12 white" (submit)="onLoginSubmit()">
+   <div class="row">
+     <div class="input-field col s6">
+       <i class="material-icons prefix">account_circle</i>
+       <input type="text" class="form-control" placeholder="Enter Email" [(ngModel)]="email" name="email">
+     </div>
+   </div>
+   <div class="row">
+      <div class="input-field col s12">
+        <i class="material-icons prefix">vpn_key</i>
+        <input type="password" class="form-control" placeholder=" Enter Password" [(ngModel)]="password" name="password">
+      </div>
+    </div>
+    <div class="row">
+        <div class="input-field col s12">
+          <input class="btn btn-lg btn-primary" type="submit" value="Login">
+        </div>
+    </div>
+</form>
+
+
+

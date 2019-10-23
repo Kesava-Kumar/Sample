@@ -1,0 +1,26 @@
+<form class="col s12 white" (submit)="onRegisterSubmit()">
+  <div class="row">
+    <div class="input-field col s12">
+      <input class="validate" type="text" [(ngModel)]="name" name="name" id="name">
+      <label>Username</label>
+    </div>
+    </div>
+    <div class="row">
+    <div class="input-field col s12">
+    <input class="validate" type="email" [(ngModel)]="email" name="email"  id="email" aria-describedby="emailHelp">
+    <label>Email</label>
+    </div>
+  </div>
+    <div class="row">
+    <div class="input-field col s12">
+    <input class="validate" type="password" [(ngModel)]="password" name="password"  id="password">
+    <label>Password</label>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="input-field col s12">
+      <button class="btn-large btn-submit" type="submit">Submit</button>
+    </div>
+  </div>
+</form>
